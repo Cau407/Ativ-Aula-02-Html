@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+</head>
+
+<body>
+    <h1>Formulário:</h1>
+    <form>
+        <label for="info">Insira suas informações:</label>
+        <br>
+        <textarea id="info" rows="5" columns="20"></textarea>
+        <br><br>
+        <label for="password">Insira sua senha:</label>
+        <br>
+        <input type="password" id="password">
+        <br><br>
+        <label for="email">Insira seu email:</label>
+        <br>
+        <input type="email" id="email">
+        <br><br>
+        <label for="list">Agora insira o que deseja na empresa:</label>
+        <br>
+        <ul id="list" style="list-style: none;">
+            <li><input type="checkbox"><label>Trabalhar</label></li>
+            <li><input type="checkbox"><label>Ganhar dinheiro</label></li>
+            <li><input type="checkbox"><label>Roubar</label></li>
+            <li><input type="checkbox"><label>Ser feliz</label></li>
+            <li><input type="checkbox"><label>Viver</label></li>
+        </ul>
+        <label for="gender">Qual seu sexo?</label>
+        <br>
+        <div>
+            <input type="radio" id="masc" name="gender" value="masc"><label for="masc">Masculino</label>
+            <br>
+            <input type="radio" id="femi" name="gender" value="femi"><label for="femi">Feminino</label>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+    </form>
+</body>
+
+</html>
